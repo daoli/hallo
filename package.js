@@ -14,9 +14,3 @@ Package.onUse(function(api) {
 
   api.addFiles('dist/hallo.js');
 });
-
-#Package.onTest(function(api) {
-#  api.use('tinytest');
-#  api.use('daoli:hallo');
-#  api.addFiles('hallo-tests.js');
-#});
