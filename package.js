@@ -9,8 +9,9 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0.5');
 
-  api.use(['jquery', 'mrt:rangy', 'mizzao:jquery-ui']);
-  api.imply(['mrt:rangy', 'mizzao:jquery-ui']);
+  api.use(['jquery'], 'client');
+  api.use(['mrt:rangy@0.0.1', 'mrt:jquery-ui@1.9.2']);
+  api.imply(['mrt:rangy', 'mrt:jquery-ui']);
 
   api.addFiles('dist/hallo.js');
 });
