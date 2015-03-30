@@ -27,7 +27,7 @@ activate_hallo = ->
         "formattings": {
           "bold": true,
           "italic": true,
-          "strikeThough": true,
+          "strikeThough": false,
           "underline": true
           }
         }
