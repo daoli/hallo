@@ -9,11 +9,11 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0.5');
 
-  api.use(['jquery'], 'client');
-  api.use(['linto:jquery-ui'], 'client');
-  api.use(['sewdn:rangy'], 'client');
-  api.use(['twbs:bootstrap'], 'client');
-  api.use(['fortawesome:fontawesome'], 'client');
+  api.use(['jquery@1.11.3'], 'client');
+  api.use(['linto:jquery-ui@1.0.0'], 'client');
+  api.use(['sewdn:rangy@1.3.0'], 'client');
+  api.use(['twbs:bootstrap@3.3.4'], 'client');
+  api.use(['fortawesome:fontawesome@4.2.0'], 'client');
 
   api.addFiles(['lib/hallo.js'], 'client');
 });
