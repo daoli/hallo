@@ -41,3 +41,9 @@ activate_hallo = ->
 root.Meteor.startup ->
   activate_hallo()
 ```
+
+# Notes
+This package relies on
+[nemo64:bootstrap](https://atmospherejs.com/nemo64/bootstrap)
+for better customization. It is also possible to use twbs:bootstrap by
+changing the dependency in package.js file.
